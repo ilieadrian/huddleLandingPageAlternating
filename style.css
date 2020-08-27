@@ -26,9 +26,14 @@ img {
 	padding: 0 20px;
 	margin: 0 auto;
 	max-width: 100%;
-	width: 1280px;
+    width: 1280px;
+    align-content: center;
+    justify-content: center;
 }
 
+/* main {
+    position: relative;
+} */
 .flex {
 	display: flex;
     align-items: center;
@@ -44,20 +49,107 @@ button {
 	font-size: 16px;
 	font-weight: 700;
 	padding: 15px 60px;
+}
 
-    /* background-color: #ffffff; */
+button:focus {
+    outline: none;
 }
 
 header {
-    margin: 60px auto;
+    margin: 0 auto;
+    padding: 40px;
 }
 
 nav {
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 nav img {
     max-width: 17%;
+    min-width: 100px;
+}
+
+header {
+    background: url(./images/bg-hero-desktop.svg) hsl(193, 100%, 96%);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 150px;
+}
+
+.lead-text p {
+    color: hsl(192, 100%, 9%);
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.hero-img {
+    max-width: 55%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    margin-left: 80px;
+}
+
+.btn-md {
+    background-color: hsl(322, 100%, 66%);
+    color: hsl(193, 100%, 96%);
+    font-size: 16px;
+    box-shadow: 0 0 5px hsl(322, 100%, 66%);
+}
+
+.box {
+    padding: 60px 60px 60px 100px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(223, 223, 223);
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+
+.box span {
+    margin-right: 20px
+}
+
+.section-text {
+    max-width: 480px;
+    font-size: 16px;
+}
+
+.box img {
+    max-width: 30%;
+}
+
+.box.right-img img {
+    margin-left: 10px;
+}
+
+.box.left-img img {
+    margin-right: 10px;
+}
+
+.container-cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+	max-width: 100%;
+    /* width: 1280px; */
+}
+.cta {
+    z-index: 999;
+    border: 1px solid black;
+    padding: 70px 130px 55px 130px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -400px;
+    max-width: 80%;
+}
+
+footer{
+    margin-top: 300px;
+    background-color: hsl(192, 100%, 9%);
 }
 
 
