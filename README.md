@@ -1,6 +1,7 @@
 <h1>Huddle Landing Page with Alternating Features</h1>
 
 This project is a responsive landing page for the "Huddle" service, designed with HTML and CSS. Based on a [Frontend Mentor](https://www.frontendmentor.io/) challenge, the page features an alternating layout to showcase various features, focusing on clean design and responsive principles.
+
 [Live version](https://huddlealternatingia.netlify.app)
 
 <h3>Features</h3>
